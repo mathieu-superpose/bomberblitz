@@ -27,10 +27,11 @@ export default function Experience() {
             near: 0.1,
             far: 1000,
           }}
+
         >
           <Scene />
           <OrbitControls
-            target={[0, 3, 3]}
+            target={[0, 4, 3]}
             enablePan={false}
             enableZoom={true}
             enableRotate={false}
